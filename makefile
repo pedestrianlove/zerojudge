@@ -1,3 +1,3 @@
 build:
-	g++ a005.cpp -o a005.o
-	./a005.o < a005.input
+	g++ a015.cpp -o a015.o
+	./a015.o < a015.input
