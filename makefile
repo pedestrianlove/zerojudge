@@ -1,3 +1,3 @@
-build:
-	g++ a015.cpp -o a015.o
-	./a015.o < a015.input
+$(NAME):
+	g++ src/$(NAME).cpp -o bin/$(NAME).o
+	bin/$(NAME).o < input/a015.input
