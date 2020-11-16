@@ -1,3 +1,6 @@
 $(obj):
-	g++ src/$(obj).cpp -o bin/$(obj).o
-	bin/$(obj).o < input/$(obj).input
+	g++ src/$(obj).cpp -o $(obj).o
+	./$(obj).o < input/$(obj).input
+
+clean:
+	rm *.o
